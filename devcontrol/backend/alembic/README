@@ -1,0 +1,2 @@
+Run `alembic revision --autogenerate -m "init"` then `alembic upgrade head`
+after pointing sqlalchemy.url (or DATABASE_URL) at your Postgres instance.
